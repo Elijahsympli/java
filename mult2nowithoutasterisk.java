@@ -1,3 +1,4 @@
+//Write a Java program to multiply two given integers without using the multiply operator(*).
 package com.java;
 
 import java.util.Scanner;
