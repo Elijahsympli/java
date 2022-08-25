@@ -1,3 +1,4 @@
+/*Write a Java program to test whether there are two integers x and y such that x^2 + y^2 is equal to a given positive number*/
 package com.java;
 
 import java.util.Scanner;
