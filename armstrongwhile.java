@@ -1,4 +1,5 @@
-package com.java;
+//write a program to input a number and check whether it is an armstrong number or not.
+	package com.java;
 
 import java.util.Scanner;
 
