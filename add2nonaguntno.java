@@ -1,3 +1,9 @@
+/*Two numbers are entered through the keyboard. Write a program to find the value of one number raised to the power of another. 
+(Do not use Java built-in method)Write a do-while loop that asks the user to enter two numbers. The numbers should be added and
+the sum displayed. The loop should ask the user whether he or she wishes to perform the operation again. If so, the loop should 
+repeat; otherwise it should terminate.*/
+
+
 package com.java;
 
 import java.util.Scanner;
