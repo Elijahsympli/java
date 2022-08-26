@@ -1,3 +1,4 @@
+//Write a Java Program to find whether a number is even or odd using conditional operator
 package com.java;
 
 public class evenoddcondi {
