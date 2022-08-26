@@ -1,3 +1,6 @@
+//2. Write a java program to print the table of all the numbers from 1 to 10
+//What will be the output of the following program?
+
 package com.java;
 
 import java.util.Scanner;
