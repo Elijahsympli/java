@@ -1,3 +1,5 @@
+//Write a Java program to swap two variables.
+
 package com.java;
 
 public class swap2var {
