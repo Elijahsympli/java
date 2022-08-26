@@ -1,3 +1,4 @@
+//write a program to check whether a number is even as well as negative using nested-if.
 package com.java;
 
 public class evennegno {
