@@ -1,3 +1,4 @@
+//Write a java program to input a number and print its factorial
 package com.java;
 
 import java.util.Scanner;
