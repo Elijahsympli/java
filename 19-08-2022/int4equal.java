@@ -1,3 +1,4 @@
+//Write a Java program that takes four integers and prints equal if all four are equal, and not equal otherwise.
 package com.java;
 
 public class int4equal {
