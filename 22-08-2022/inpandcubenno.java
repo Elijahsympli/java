@@ -1,3 +1,4 @@
+//Write a program in Java to display the cube of the number upto given an integer.
 package com.java;
 
 import java.util.Scanner;
