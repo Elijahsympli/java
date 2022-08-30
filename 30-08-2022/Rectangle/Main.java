@@ -5,7 +5,6 @@ length and breadth of the rectangle. Let class 'Square' inherit the 'Rectangle'
 class with its constructor having a parameter for its side (suppose s) calling the
 constructor of its parent class as 'super(s,s)'. Print the area and perimeter of a rectangle and a sq
 square*/
-
 package com.java;
 
 import java.util.Scanner;
@@ -21,6 +20,9 @@ public static void main(String args[]) {
 	System.out.println("enter the side");
 	int sq=sc.nextInt();
 	Square s=new Square(sq,n, n1);
+	s.SqArea();
+	s.SqPerimeter();
 	
 }
 }
+
