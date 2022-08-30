@@ -3,20 +3,18 @@
 package com.java;
 
 public class Rectangle {
-	int length,breadth,s;
+	int length,breadth;
 	Rectangle(int sq,int l,int b){
 		this.length=l;
 		this.breadth=b;
-		this.s=sq;
+		
 	}
 	void Area(){
-		System.out.println(length*breadth);
+		System.out.println("Area of Rectangle="+length*breadth);
 	}
 	void Perimeter() {
-		System.out.println(2*(length+breadth));
+		System.out.println("perimeter of Rectangle="+2*(length+breadth));
 	}
-	void Sq() {
-		System.out.println(4*s);
-	}
+	
 
 }
