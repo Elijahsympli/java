@@ -19,11 +19,12 @@ public class Q1 {
 	}
 	System.out.println("Enter a number to search it is present an array or not:");
 	int search=sc.nextInt();
+		System.out.println("the number entered  present in an array are:");
 	for(int i=0;i<5;i++)
 	{
 			if(a[i]==search) {
 				System.out.println("a["+i+"]="+search);
-				break;
+				
 			}
 			
 				
