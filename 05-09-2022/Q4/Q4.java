@@ -9,14 +9,13 @@ package com.java;
 import java.util.Scanner;
 
 public class Q4 {
-	static void validate() throws LessBalanceException{
+	static void validate(double d) throws LessBalanceException{
 Scanner sc= new Scanner(System.in);
-		System.out.println("deposite an amount");
-			double da=sc.nextDouble();
+	System.out.println("Balance:"+d);
 		System.out.println("Enter Amount to withdraw");
 		
 		double amt=sc.nextDouble();
-		if(amt>da) {
+		if(amt>d) {
 			throw new LessBalanceException("WithDraw Amount "+amt+" is Not Valid ");
 			
 		}
@@ -24,16 +23,16 @@ Scanner sc= new Scanner(System.in);
 		else
 		{
 			System.out.println("Withdraw Successfully");
-			System.out.println("Balance:"+(da-amt));
+			System.out.println("Balance:"+(d-amt));
 			
 		}
 			}
 
 			public static void main(String args[]) throws LessBalanceException
-			{
-			
+			{System.out.println("balance:500");
+				Account ac =new Account();
 				try {
-					Q4.validate();
+					Q4.validate(ac.deposit()+500);
 				} catch (LessBalanceException e) {
 					System.out.println(e.getMessage());
 				}
