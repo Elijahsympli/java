@@ -20,10 +20,10 @@ class Test_StudentBusinessLogic {
 	{   e.setMaxmarks(300);
 	    e.setName("carl");
 	   
-		e.setMarks1(45);
+		e.setMarks1(60);
 		e.setMarks2(60);
-		e.setMarks3(80);
+		e.setMarks3(60);
 		double per=eg.percentage(e);
-		assertEquals(61.0,per);
+		assertEquals(60.0,per);
 	}
 }
