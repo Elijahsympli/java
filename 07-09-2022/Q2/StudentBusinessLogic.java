@@ -7,7 +7,7 @@ and then test the business logic using junit
 package com.Junit_Testing;
 
 public class StudentBusinessLogic {
-	public Object eg;
+	
 
 	public double percentage(StudentDetails sd) {
 		
