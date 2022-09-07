@@ -3,30 +3,30 @@ package com.Junit_Testing;
 
 public class StudentDetails {
 private String name;
-private int marks1,marks2,marks3,maxmarks;
+private double marks1,marks2,marks3,maxmarks;
 
-public int getMaxmarks() {
+public double getMaxmarks() {
 	return maxmarks;
 }
-public void setMaxmarks(int maxmarks) {
+public void setMaxmarks(double maxmarks) {
 	this.maxmarks = maxmarks;
 }
-public int getMarks1() {
+public double getMarks1() {
 	return marks1;
 }
-public void setMarks1(int marks1) {
+public void setMarks1(double marks1) {
 	this.marks1 = marks1;
 }
-public int getMarks2() {
+public double getMarks2() {
 	return marks2;
 }
-public void setMarks2(int marks2) {
+public void setMarks2(double marks2) {
 	this.marks2 = marks2;
 }
-public int getMarks3() {
+public double getMarks3() {
 	return marks3;
 }
-public void setMarks3(int marks3) {
+public void setMarks3(double marks3) {
 	this.marks3 = marks3;
 }
 private double percent;
