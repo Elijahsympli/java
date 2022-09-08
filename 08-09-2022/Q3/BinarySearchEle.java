@@ -24,7 +24,7 @@ public class BinarySearchEle {
 	   if ( first > last ){  
 	      return false; 
 	   }
-	return true;  
+	return false;  
 	 }  
 	 
 	}  
