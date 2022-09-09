@@ -41,7 +41,7 @@ for(int i=0;i<arr.length;i++) {
 if(search==arr[i]) {
 	
 
-	System.out.print(arr[i]+" present  ");
+	System.out.print(arr[i]+" present at position  "+i);
 	break;
 	
 }else if (arr.length==i+1 && search!=arr[i]) {
