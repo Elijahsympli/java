@@ -6,7 +6,7 @@ package com.pack;
 
 import java.util.Scanner;
 
-public class removeevenindex {
+public class removeindex {
 public static void main(String args[]) {
 	
 
@@ -21,12 +21,12 @@ public static void main(String args[]) {
 		
 	}else
 		{
-		System.out.print(s.charAt(i));
+		k+=s.charAt(i);
 
 		}
 	
 	}
-	
+	System.out.println(k);
 	
 }
 }
