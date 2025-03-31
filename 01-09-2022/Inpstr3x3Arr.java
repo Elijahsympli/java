@@ -11,7 +11,7 @@ public class Inpstr3x3Arr {
 		for(int i=0;i<3;i++) {
 			for(int j=0;j<3;j++)
 		{Scanner sc=new Scanner(System.in);
-		String str=sc.next();
+		String str=sc.next();// take input char
 		a[i][j]=str;
 		}
 		}
